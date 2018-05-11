@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeometryShader", "Examples\GeometryShader\GrometryShader.vcproj", "{E5DFE812-ED14-4857-94B9-685BE5F5E8C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70} = {9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhongShading", "Examples\PhongShading\PhongShading.vcproj", "{501E3955-6A59-49C8-92E9-F73354A91455}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70} = {9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UseTexture", "Examples\UseTexture\UseTexture.vcproj", "{846B5BA3-7479-41F1-AC84-E15637DB6308}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70} = {9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{89A6E9E1-A3D1-4CCE-87D2-5E2152098624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{A87292CC-6475-426F-AFC5-0C38141F03CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedCode", "SharedCode\SharedCode.vcproj", "{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5DFE812-ED14-4857-94B9-685BE5F5E8C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5DFE812-ED14-4857-94B9-685BE5F5E8C4}.Debug|Win32.Build.0 = Debug|Win32
+		{E5DFE812-ED14-4857-94B9-685BE5F5E8C4}.Release|Win32.ActiveCfg = Release|Win32
+		{E5DFE812-ED14-4857-94B9-685BE5F5E8C4}.Release|Win32.Build.0 = Release|Win32
+		{501E3955-6A59-49C8-92E9-F73354A91455}.Debug|Win32.ActiveCfg = Debug|Win32
+		{501E3955-6A59-49C8-92E9-F73354A91455}.Debug|Win32.Build.0 = Debug|Win32
+		{501E3955-6A59-49C8-92E9-F73354A91455}.Release|Win32.ActiveCfg = Release|Win32
+		{501E3955-6A59-49C8-92E9-F73354A91455}.Release|Win32.Build.0 = Release|Win32
+		{846B5BA3-7479-41F1-AC84-E15637DB6308}.Debug|Win32.ActiveCfg = Debug|Win32
+		{846B5BA3-7479-41F1-AC84-E15637DB6308}.Debug|Win32.Build.0 = Debug|Win32
+		{846B5BA3-7479-41F1-AC84-E15637DB6308}.Release|Win32.ActiveCfg = Release|Win32
+		{846B5BA3-7479-41F1-AC84-E15637DB6308}.Release|Win32.Build.0 = Release|Win32
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}.Debug|Win32.Build.0 = Debug|Win32
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}.Release|Win32.ActiveCfg = Release|Win32
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5DFE812-ED14-4857-94B9-685BE5F5E8C4} = {89A6E9E1-A3D1-4CCE-87D2-5E2152098624}
+		{846B5BA3-7479-41F1-AC84-E15637DB6308} = {89A6E9E1-A3D1-4CCE-87D2-5E2152098624}
+		{501E3955-6A59-49C8-92E9-F73354A91455} = {89A6E9E1-A3D1-4CCE-87D2-5E2152098624}
+		{9FC7B9AE-4F8D-40EB-B710-F5EAC6A3FA70} = {A87292CC-6475-426F-AFC5-0C38141F03CD}
+	EndGlobalSection
+EndGlobal
